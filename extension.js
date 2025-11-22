@@ -36,7 +36,7 @@ function activate(context) {
             color: highlightColor, // 文字颜色
             fontWeight: 'bold',
             backgroundColor: backgroundColor, // 背景颜色
-            borderRadius: backgroundColor !== 'transparent' ? '2px' : undefined,
+            // 移除 borderRadius 以避免在滚动条区域显示颜色块
             light: {
                 color: highlightColor,
                 backgroundColor: backgroundColor
