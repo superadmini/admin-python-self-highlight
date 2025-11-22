@@ -24,7 +24,8 @@ A VSCode extension that automatically highlights non-static methods in Python fi
 5. 重启VSCode | Restart VSCode
 
 ### 从市场安装 | Install from Marketplace
-Coming soon... | 即将上线...
+✅ **现已发布！| Now Published!**  
+🔗 [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=superadmini.admin-python-self-highlight)
 
 ## 使用方法 | Usage
 
@@ -151,22 +152,35 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 链接 | Links
 
-- **VSCode市场 | VSCode Marketplace:** [即将上线 | Coming Soon]
+- **VSCode市场 | VSCode Marketplace:** [🔗 admin-python-self-highlight](https://marketplace.visualstudio.com/items?itemName=superadmini.admin-python-self-highlight)
 - **GitHub仓库 | GitHub Repository:** [https://github.com/superadmini/admin-python-self-highlight](https://github.com/superadmini/admin-python-self-highlight)
 - **发布者 | Publisher:** [superadmini](https://marketplace.visualstudio.com/publishers?target=VSCode&publisher=superadmini)
 
-## 支持这个项目 | Support This Project
+## 🌟 支持这个项目 | Support This Project
 
 如果这个扩展对你有帮助，请考虑：
 If this extension helps you, please consider:
 
 ⭐ **在GitHub上给个Star** | **Give it a Star on GitHub**  
+👉 [GitHub Repository](https://github.com/superadmini/admin-python-self-highlight) - 点击右上角的⭐ | Click the ⭐ in the top right corner  
+
 ⭐ **在VSCode市场给个好评** | **Give it a good rating on VSCode Marketplace**  
+👉 [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=superadmini.admin-python-self-highlight) - 安装后给个5星好评 | Give it 5 stars after installation  
+
 🐛 **报告Bug** | **Report Bugs**  
 💡 **提出功能建议** | **Suggest Features**  
 
 你的支持是我们持续改进的动力！
 Your support motivates us to keep improving!
+
+---
+
+## 📊 项目状态 | Project Status
+
+✅ **已发布 | Published**  
+🎯 **版本 | Version:** 0.0.1  
+📦 **下载 | Downloads:** 正在统计中... | Counting...  
+⭐ **Star | Stars:** [点击这里给Star](https://github.com/superadmini/admin-python-self-highlight) | [Click here to Star]
 
 ---
 
