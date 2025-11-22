@@ -1,0 +1,56 @@
+{
+  "name": "admin-python-self-highlight",
+  "displayName": "Admin Python Self Highlight",
+  "description": "Automatically highlights non-static methods in Python files where the first parameter is 'self'",
+  "version": "0.0.1",
+  "publisher": "superadmini",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:python"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Admin Python Self Highlight",
+      "properties": {
+        "adminPythonSelfHighlight.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable/disable highlighting of 'self' parameter in methods"
+        },
+        "adminPythonSelfHighlight.highlightColor": {
+          "type": "string",
+          "default": "#ff00ff",
+          "description": "Color for highlighted 'self' parameter (e.g., '#ff00ff' for purple)"
+        },
+        "adminPythonSelfHighlight.backgroundColor": {
+          "type": "string",
+          "default": "transparent",
+          "description": "Background color for highlighted 'self' parameter (e.g., 'transparent', '#ff00ff20')"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.74.0",
+    "@typescript-eslint/eslint-plugin": "^8.47.0",
+    "@typescript-eslint/parser": "^8.47.0",
+    "@vscode/test-electron": "^2.3.0",
+    "eslint": "^8.36.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5",
+    "vsce": "^2.6.7"
+  }
+}
