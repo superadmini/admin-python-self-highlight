@@ -2,7 +2,7 @@
   "name": "admin-python-self-highlight",
   "displayName": "Admin Python Self Highlight",
   "description": "Automatically highlights non-static methods in Python files where the first parameter is 'self'",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "superadmini",
   "icon": "images/app_line.png",
   "repository": {
